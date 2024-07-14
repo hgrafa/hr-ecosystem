@@ -12,7 +12,7 @@
 	<groupId>com.hugo</groupId>
 	<artifactId>hr-worker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HR Worker</name>
+	<name>hr-worker</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

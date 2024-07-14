@@ -1,0 +1,17 @@
+server:
+  port=8001
+
+spring:
+  application:
+    name: hr-worker
+  jpa:
+    hibernate.ddl-auto: update
+    open-in-view: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5433/hr_worker_db
+    username: postgres
+    password: docker
